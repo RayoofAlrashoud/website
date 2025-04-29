@@ -1,1 +1,19 @@
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header, section, footer {
+    margin-bottom: 40px;
+}
+h1, h2 {
+    color: #004aad;
+}
+ul {
+    list-style-type: square;
+}
+footer {
+    font-size: 0.9em;
+    color: #777;
+}
