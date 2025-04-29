@@ -17,3 +17,12 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 200px;
+}
+
