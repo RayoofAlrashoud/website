@@ -47,17 +47,38 @@
 
     <section id="projects">
       <h3>Projects</h3>
-      <ul class="projects">
-        <li><strong>Smart Home Face Recognition</strong><br>A facial recognition backend system using Flask & OpenCV.</li>
-        <li><strong>Techonnovate Hackathon</strong><br>An app to connect communities with surplus food from restaurants.</li>
-        <li><strong>IKEA Dashboard</strong><br>Data visualization project using Power BI for business insights.</li>
-      </ul>
+      <div class="grid">
+        <div class="project-card">
+          <h4>Smart Home Face Recognition</h4>
+          <p>Flask-based backend system using OpenCV and SQLite to control home access through facial data.</p>
+        </div>
+
+        <div class="project-card">
+          <h4>Techonnovate Hackathon</h4>
+          <p>Developed a community app that connects users with nearby restaurants offering surplus meals.</p>
+        </div>
+
+        <div class="project-card">
+          <h4>IKEA Power BI Dashboard</h4>
+          <p>Designed a dashboard for IKEA’s product data, visualizing pricing trends and stock distribution.</p>
+        </div>
+      </div>
     </section>
 
     <section id="contact">
       <h3>Contact</h3>
-      <p>Email: <a href="mailto:rayoof@example.com">rayoof@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/rayoof" target="_blank">linkedin.com/in/rayoof</a></p>
+      <form action="mailto:rayoof@example.com" method="POST" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </main>
 
@@ -69,9 +90,6 @@
 
 </body>
 </html>
-
-
-
 
 
   
